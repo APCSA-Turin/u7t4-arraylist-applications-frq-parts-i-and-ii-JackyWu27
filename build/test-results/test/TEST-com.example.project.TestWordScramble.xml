@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestWordScramble" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-07T16:13:21" hostname="codespaces-cc8cd4" time="0.061">
+<testsuite name="com.example.project.TestWordScramble" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-02-14T13:42:09" hostname="codespaces-de8258" time="0.05">
   <properties/>
-  <testcase name="testScrambleWordPARTA()" classname="com.example.project.TestWordScramble" time="0.038"/>
-  <testcase name="testScrambleOrRemovePARTB()" classname="com.example.project.TestWordScramble" time="0.001"/>
-  <system-out><![CDATA[--------- TEST scrambleOrRemove (part b) ---------
+  <testcase name="testScrambleWordPARTA()" classname="com.example.project.TestWordScramble" time="0.039"/>
+  <testcase name="testScrambleOrRemovePARTB()" classname="com.example.project.TestWordScramble" time="0.005"/>
+  <system-out><![CDATA[[TNA]
+[TNA, BARCADABARA]
+[TNA, BARCADABARA, PAPLE]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
