@@ -36,10 +36,11 @@ public class Airport  {
      */
     public int updateFlights() {
         int c = 0;
-        for (Flight f : allFlights) {
-            if (!(f.getNumPassengers() > f.getCapacity() * 0.2)) {
-                c += f.getNumPassengers();
+        for (int f = 0; f < allFlights.size(); f++) {
+            if (!(allFlights.get(f).getNumPassengers() > allFlights.get(f).getCapacity() * 0.2)) {
+                c += allFlights.get(f).getNumPassengers();
                 allFlights.remove(f);
+                f--;
             }
         }
         return c;
